@@ -30,11 +30,11 @@ public class HystrixService {
         }*/
 
         //2.10초 동안 10번 호출 중 30% 실패할 경우 10초동안 sampleProduct 메소드를 실행
-        int num = (int)(Math.random() * 100);
+        /*int num = (int)(Math.random() * 100);
         log.debug("num : "+num);
         if(num%2 != 0){
             throw new Exception("Exception!!");
-        }
+        }*/
 
         ProductVo productVo = new ProductVo();
         productVo.setProductId("p1");
